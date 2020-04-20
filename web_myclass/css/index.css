@@ -1,0 +1,574 @@
+body{
+	margin: 0;
+}
+/* bat dau css header */
+.header{
+	width: 100%;
+	background-color: #b06010;
+	padding: 10px 0px;
+}
+.header-content{
+	width: 80%;
+	margin: 0 auto;
+	color: white;
+}
+.header-content i,span{
+	margin-right: 12px; 
+}
+/*ket thuc css header*/
+
+
+
+
+/*bat dau css cua navbar */
+.myNavbar-logo, .myNavbar-menu, .social {
+	float: left;
+} 
+.myNavbar-content{
+	width: 80%;
+	margin:auto;
+}
+.myNavbar-logo{
+	width: 25%;
+	margin-right: 2.0rem;
+	padding-top: 0.4rem;
+}
+.myNavbar-menu{
+	width: 55%;
+	padding-top: 0.5rem;
+	padding-right: 0.5rem;
+}
+.myNavbar-menu ul{
+	list-style: none; /* lam cho mat dau cham o list */
+}
+.myNavbar-menu ul li{
+	float: left;
+	margin-right: 1rem;
+	position: relative;
+}
+.myNavbar-menu ul li a{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+.myNavbar-menu ul li a:hover{
+	color: white;
+	background: black;
+}
+.myNavbar-menu ul li ul li{
+	clear: both;
+}
+.myNavbar-menu ul li > .sub-menu{
+	display: none;
+	position: absolute;
+	background-color: white;
+	color: white;
+	text-align: center;
+}
+.myNavbar-menu ul li:hover > .sub-menu{
+	display:block;
+	color:green;
+	text-align: center;
+}
+.myNavbar-menu ul li > .sub-menu a:hover{
+	color: red;
+	background-color: white;
+}
+
+/* kitinkhanh */
+.myNavbar-menu ul li > .sub-menu2{
+	display: none;
+	position: absolute;
+	background-color: white;
+	color: white;
+	text-align: center;
+}
+.myNavbar-menu ul li:hover > .sub-menu2{
+	display:block;
+	color:green;
+	text-align: center;
+}
+.myNavbar-menu ul li > .sub-menu2 a:hover{
+	color: red;
+	background-color: white;
+}
+.myNavbar-menu ul li.kitin a{                 /* ====> cach lam home mau do */
+	color: red;
+	background-color: white;
+}
+.myNavbar-menu ul li.kitin a:hover{                 /* ====> cach lam home mau do */
+	color: green;
+}
+/*.myNavbar-menu ul li a:hover{ 
+	color: white;
+	background-color: black;
+}*/
+/*.myNavbar-menu ul li.active a{                  ====> cach lam home mau do 
+	color: red;
+}*/
+/*.myNavbar-menu ul li.active a:hover{  
+	color: green;
+	background-color: white;
+}*/
+/*viet them chuc nang */
+/*.myNavbar-menu ul li.active > .sub-services{
+	display: none;
+	position: absolute;
+}
+.myNavbar-menu ul li:hover > .sub-services{
+	display: block;
+}*/
+
+
+
+
+
+
+
+
+
+.social{
+	width: 15%;
+	padding-top: 0.5rem;
+}
+.social-item{
+	width: 1.8rem;
+	height: 1.8rem;
+	float: left;
+	margin-right: 0.4rem;
+	margin-top:0.4rem;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+}
+.social-item i{
+	padding-left: 0.4rem;
+	padding-top: 0.5rem;
+}
+.fb-social{
+	background-color: #2771e8;
+}
+.gg-social{
+	background-color: #d62424;
+}
+.tw-social{
+	background-color: #f9e60e;
+}
+/*clear */
+.clear{
+	clear: both;
+}
+/* bat dau css silder */
+.slider{
+	width: 100%;
+	height: 650px;
+	background-image: url('../image/banner-2.jpg');
+	background-position: center center;
+}
+.slider-caption{
+	color: white;
+	text-align: center;
+	padding-top: 10%;
+}
+.slider-caption h1{
+	font-size: 45px;
+	font-weight: bold;
+}
+.slider-caption h1 span{
+	font-style: italic;
+	font-size: 35px;
+}
+.silder-social{
+	text-align: center;
+}
+.silder-social i{
+ 	color: #b06010;
+ 	margin-right: 2rem; 
+}
+/* ket thuc css silder */
+/*bat dau css about us*/
+.about-us{
+	width: 100%;
+}
+.about-us-content{
+	width: 80%;
+	margin: auto;
+}
+.about-us-caption{
+	text-align: center;
+	padding-top: 2rem;
+}
+.about-us-caption span{
+	font-size: 20px;
+	letter-spacing: 3.0px;
+	color: #b06010;
+}
+.about-us-caption p{
+	font-size: 16px;
+	line-height: 1.8rem;
+}
+.about-us-list{
+	width: 100%;
+	padding-top: 1.5rem;
+	text-align: center;
+}
+.about-us-list-item{
+	width: 22%;
+	float: left;
+	margin-right: 2rem;
+}
+.about-us-list-item i{
+	text-align: center;
+	font-size: 2rem;
+	color: #204b87;
+}
+.about-us-list-item h2{
+	color: #b06010;
+}
+.about-us-list-item p{
+	font-size: 16px;
+}
+#item-home{
+	color: #b06010;
+}
+/* ket thuc css about us*/
+
+
+/* bat dau css home*/
+.home{
+	width: 100%;
+	background-color: #015bb1;
+	margin-top: 2rem;
+	padding-bottom: 1rem;
+}
+.home-img{
+	width: 60%;
+	float: left;
+	
+}
+.home-img img{
+	max-width: 100%;
+	height: 95%;
+}
+.home-intro{
+	width: 40%;
+	float: left;
+}
+.home-intro h1{
+	font-weight: bold;
+	color: white;
+	font-size: 2.8rem;
+	padding: 0 3rem;
+
+}
+.home-intro p{
+	font-size: 1.2rem;
+	padding: 0 3rem;
+	color: white;
+}
+p.home-subtitle{
+	color: black;
+	padding: 0 3rem;
+	line-height: 2rem;
+}
+.home-intro p i{
+	margin-right: 0.9rem;
+	line-height: 2rem;
+}
+/*ket thuc css home*/
+
+/*bat dau css our team */
+.team{
+	width: 100%;
+	padding-top: 2rem;
+}
+.team-content{
+	width: 80%;
+	margin: auto;
+}
+.team-title{
+	text-align: center;
+}
+.team-title h1{
+	font-size: 2.8rem;
+	margin-bottom: 0.6rem;
+}
+.team-title span{
+	font-size: 1.2rem;
+	color: #b06010;
+	letter-spacing: 0.2rem;
+}
+.team-member{
+	margin-top: 4rem;
+	width: 100%;
+}
+.team-member-item{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.team-member-item img{
+	border: 1px solid white;
+	border-radius: 50%;
+	max-width: 60%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+}
+.team-member-item p{
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #b06010;
+	margin-bottom: 0.4rem;
+}
+.team-member-item span{
+	font-size: 1.1rem;
+	font-weight: 200;
+	color: #4f5667;
+}
+.team-social{
+	margin-top: 1.3rem;
+}
+.team-social i{
+	font-size: 1rem;
+	color: black;
+	margin-right: 0.5rem;
+}
+.team-line{
+	width: 75%;
+	height: 2px;
+	margin: 1rem auto;
+	background-color: black;
+}
+/*ket thuc css our team */
+/* bat dau css customer */
+.customer{
+	width: 100%;
+	height: 35rem;
+	margin-bottom: 3rem;
+	background-image: url('../image/banner-2.jpg'); 
+}
+.customer-content{
+	width: 80%;
+	margin: 0 auto;
+}
+.customer-title{
+	text-align: center;
+}
+.customer-title h1{
+	font-size: 2.8rem;
+	margin-bottom: 0.6rem;
+	font-weight: 200;
+	color: white;
+	padding-top: 10%;
+}
+.customer-title span{
+	font-size: 1.2rem;
+	color: #b06010;
+	letter-spacing: 0.2rem;
+}
+.customer-member{
+	width: 100%;
+	margin-top: 5%;
+}
+.customer-member-item{
+	width: 30%;
+	float: left;
+}
+.customer-member-item:nth-child(2){
+	margin: 0 5%;
+}
+.customer-member-comment{
+	background: rgba(255,255,255,0.4);
+	padding: 0.5rem 0.7rem;
+}
+.customer-member-info{
+	padding-top: 1rem;
+}
+.customer-member-info img{
+	max-width: 20%;
+	float: left;
+	margin-right: 0.4rem;
+	margin-left: 20%;
+}
+.customer-member-info p{
+	color: white;
+	font-size: 1.2rem;
+	margin-bottom: 0.3rem;
+	margin-top: 0.2rem;
+	font-weight: bold;
+}
+.customer-member-info span{
+	color: #d2cfcf;
+	font-size: 1rem;
+}
+/*ket thuc css customer */
+/* bat dau css overview */
+.overview{
+	width: 100%;
+	margin-bottom: 5rem;
+}
+.overview-content{
+	width: 80%;
+	margin: 0 auto;
+}
+.overview-title{
+	text-align: center;
+	margin-bottom: 3rem;
+}
+.overview-title h1{
+	font-size: 2.8rem;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 0.3rem; 
+}
+.overview-title span{
+	font-size: 1.2rem;
+	color: #b06010;
+	letter-spacing: 0.2rem;
+}
+.overview-item{
+	background-color: #0f1011; 
+	width: 100%;
+	height: 10rem;
+}
+.overview-item-intro{
+	width: 30%;
+	float: left;
+}
+.overview-item-intro i{
+	font-size: 2rem;
+	color: #b06010;
+	float: left;
+	font-weight: bold;
+	margin: 4rem 3rem;
+	margin-left: 5rem;
+}
+.overview-item-intro p{
+	font-size: 1.6rem;
+	color: white;
+	margin-bottom: 0.3rem;
+}
+.overview-item-intro span{
+	font-size: 1.1rem;
+	color: white;
+}
+.overview-item-user{
+	margin: 3rem 1rem;
+}
+
+.overview-item-case{
+	margin: 3rem 1rem;
+}
+.overview-item-home{
+	margin: 3rem 1rem;
+}
+/* ket thuc css overview */
+
+/* bat dau css footer*/
+.footer{
+	width: 100%;
+	height: 35rem;
+	background-color: black;
+}
+.footer-content{
+	width: 80%;
+	margin: auto;
+}
+.footer-list{
+	width: 100%;
+	color: white;
+}
+.footer-list p{
+	color: #464b54;
+}
+.footer-list-contact{
+	width: 38%;
+	float: left;
+}
+.footer-list-contact h2{
+	font-weight: bold;
+	font-size: 1.8rem; 
+	padding-bottom: 1.5rem;
+}
+.footer-list-contact p{
+	font-size: 1.2rem;
+}
+.footer-list-contact p i{
+	padding-right: 1.2rem;
+}
+.footer-list-about{
+	width: 28%;
+	float: left;
+}
+.footer-list-about h2{
+	font-weight: bold;
+	font-size: 1.8rem; 
+	padding-bottom: 1.5rem;
+}
+.footer-list-about p{
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	padding-right: 0.3rem;
+}
+.footer-list-new{
+	width: 34%;
+	float: left;
+}
+.footer-list-new h2{
+	font-weight: bold;
+	font-size: 1.8rem; 
+	padding-bottom: 1.5rem;
+}
+.footer-list-new p{
+	font-size: 1.2rem;
+}
+.footer-list-new i{
+	color: #4471ba;
+}
+.footer-input{
+	width: 80%;
+	margin:auto;
+}
+.footer-input h2{
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 4rem;
+}
+.file-email input{
+	font-size: 1rem;
+	padding-left: 1rem;
+	width: 75%;
+	height: 1.8rem;
+	background-color: #5d6168;
+	border: none;
+}
+.file-email button{
+	width: 15%;
+	height: 2rem;
+	background-color: blue;
+	color: white;
+	border: none;
+	font-weight: bold;
+	font-size: 1rem;
+	margin-left: 1rem;
+}
+.coppy-right{
+	width: 100%;
+	height: 3rem;
+	background-color: #5d6168;
+	margin-top: 6rem;
+}
+.coppy-right p{
+	text-align: center;
+	color: white;
+	line-height: 3rem;
+}
+.coppy-right b{
+	color: orange;
+}
+/* ket thuc css footer*/

@@ -1,0 +1,447 @@
+body{
+	margin: 0;
+}
+/* bat dau header */
+.header{
+	width: 100%;
+	background-color: #b06010;
+}
+.clear{
+	clear: both;
+}
+.header-content{
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	color: white;
+}
+.header-content i, span{
+	margin-right: 12px;
+}
+/* ket thuc header */
+
+/* bat dau menu */
+.menu{
+	width: 100%;
+}
+.menu-logo, .menu-list, .menu-item{
+	float: left;
+}
+.menu-content{
+	width: 80%;
+	margin: auto;
+}
+.menu-logo{
+	width: 25%;
+	padding-top: 0.6rem;
+}
+.menu-list{
+	width: 55%;
+	padding-top: 0.7rem;
+}
+.menu-list ul li.active a{
+	color: #b06010;
+}
+.menu-list ul{
+	list-style: none;
+}
+.menu-list ul li{
+	float: left;
+	margin-right: 1.5rem;
+}
+.menu-list ul li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+.menu-item{
+	width: 20%;
+	padding-top: 1.2rem;
+}
+.menu-social{
+	width: 1.8rem;
+	height: 1.8rem;
+	color: white;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	float: left;
+	margin-right: 0.4rem;
+}
+.menu-social i{
+	padding-top: 0.5rem;
+	padding-left: 0.4rem;
+}
+.item-face{
+	background-color: #3b5998;
+}
+.item-twi{
+	background-color: #1da1f2;
+}
+.item-gg{
+	background-color: #ee6d9f;
+}
+/* ket thuc menu */
+/* bat dau slider*/
+.slider{
+	width: 100%;
+	background-image: url("images/banner-2.jpg");
+	background-position: center center;
+	height: 650px;
+}
+.slider-caption{
+	padding-top: 20%;
+	text-align: center;
+	color: white;
+}
+.slider-caption h1{
+	font-weight: 200;
+	font-size: 45px;
+}
+.slider-social{
+	text-align: center;
+}
+.slider-social i{
+	color: #b06010;
+	margin-right: 1.5rem;
+}
+/* ket thuc slider*/
+
+/* bat dau about-us*/
+.about-us{
+	width: 100%;
+	margin-top: 5rem;
+}
+.about-us-content{
+	width: 80%;
+	margin: auto;
+}
+.about-us-caption{
+	text-align: center;
+}
+.about-us-caption h1{
+	font-size: 40px;
+	margin-bottom: 0.8rem;
+}
+.about-us-caption span{
+	color: #b06010;
+	letter-spacing: 0.3rem;
+	font-size: 1.2rem;
+}
+.about-us-caption p{
+	font-size: 1.2rem;
+	padding:0 1rem;
+	line-height: 2rem;
+}
+.about-list{
+	width: 100%;
+	margin-top: 4rem;
+}
+.about-list-item{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+.about-list-item i{
+	font-size: 3rem;
+	color: #204b87;
+}
+.about-list-item h2{
+	color: #b06010;
+}
+.about-list-item p{
+	padding:0 1rem;
+}
+#face{
+	color: #b06010;
+}
+
+/* ket thuc about-us*/
+/* bắt đầu start home*/
+.home{
+	width: 100%;
+	background-color: #015bb1;
+	margin-top: 4rem;
+	margin-bottom: 5rem;
+}
+.home-img{
+	float: left;
+	width: 60%;
+}
+.home-img img{
+	max-width: 100%;
+	height: 95%;
+}
+.home-content{
+	float: left;
+	width: 40%;
+}
+.home-content h1{
+	color: white;
+	font-weight: bold;
+	font-size: 2.4rem;
+	padding: 0 3rem;
+}
+.home-content p{
+	padding:0 3rem;
+	font-size: 1.2rem;
+	color: white;
+	margin-bottom: 2rem;
+}
+.home-content i{
+	margin-right: 2rem;
+}
+p.title{
+	color: black;
+	line-height: 2rem;
+}
+/* ket thuc start home*/
+
+/* bat dau Our team*/
+.team{
+	width: 100%;
+	margin-bottom: 4rem;
+}
+.team-content{
+	width: 80%;
+	margin: auto;
+}
+.team-title{
+	text-align: center;
+}
+.team-title h1{
+	font-size: 2.4rem;
+}
+.team-title span{
+	font-size: 1.2rem;
+	letter-spacing: 0.3rem;
+	color: #b06010;
+}
+.team-member{
+	margin-top: 4rem;
+	width: 100%;
+}
+.team-member-item{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.team-member-item img{
+	border: 1px solid white;
+	border-radius: 50%;
+	max-width: 60%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+}
+.team-member-item p{
+	font-size: 1.5rem;
+	color: #b06010;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+.team-member-item span{
+	font-size: 1rem;
+	color: #4f5667;
+	font-weight: 200;
+}
+.team-social{
+	margin-top: 1rem;
+}
+.team-social i{
+	color: #204b87;
+	font-size: 1rem;
+	margin-right: 1rem;
+}
+.team-line{
+	background-color: black;
+	width: 80%;
+	height: 2px;
+	margin: 1rem auto;
+}
+/* ket thuc Our team*/
+
+/*Bắt đầu Customer */
+.Customer{
+	width: 100%;
+	height: 35rem;
+	background-image: url("images/banner-2.jpg");
+}
+.Customer-content{
+	width: 80%;
+	margin: auto;
+}
+.Customer-title{
+	text-align: center;
+}
+.Customer-title h1{
+	color: white;
+	font-weight: bold;
+	font-size: 2.4rem;
+	padding-top: 9%;
+}
+.Customer-title span{
+	color: #b06010;
+	letter-spacing: 0.3rem;
+	font-size: 1.2rem;
+}
+.Customer-member{
+	width: 100%;
+	margin: 3rem;
+}
+.Customer-member-item{
+	width: 30%;
+	float: left;
+}
+.Customer-member-item:nth-child(2){
+	margin: 0 5%;
+}
+.Customer-comment{
+	background: rgba(255,255,255,0.4);
+	padding: 0.5rem 0.7rem;
+}
+.Customer-info{
+	padding-top: 1rem;
+}
+.Customer-info img{
+	max-width: 20%;
+	float: left;
+	margin-right: 0.3rem;
+	margin-left: 20%;
+}
+.Customer-info p{
+	color: white;
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin: 0.3rem 0;
+}
+.Customer-info span{
+	color: #d2cfcf;
+}
+/*Kết thúc Customer */
+
+/*Bat dau Overbiew */
+.overview{
+	width: 100%;
+}
+.overview-content{
+	width: 80%;
+	margin: auto;	
+}
+.overview-title{
+	text-align: center;
+}
+.overview-title h1{
+	color: black;
+	font-weight: bold;
+	font-size: 2.4rem;
+	padding-top: 2rem;
+}
+.overview-title span{
+	color: #b06010;
+	letter-spacing: 0.3rem;
+	font-size: 1.2rem;
+}
+.overview-info{
+	width: 100%;
+	margin: 3rem 0;
+	background-color: #0f1011;
+	height: 10rem;
+}
+.overview-item{
+	float: left;
+	width: 30%;
+	margin-right: 1rem;
+	text-align: center;
+
+}
+.overview-item i{
+	font-size: 2rem;
+	color: #b06010;
+	float: left;
+	font-weight: bold;
+	margin: 4rem 3rem;
+	margin-left: 5rem;
+}
+.overview-item p{
+	font-size: 1.6rem;
+	color: white;
+	margin-bottom: 0.3rem;
+}
+.overview-item span{
+	font-size: 1.1rem;
+	color: white;
+}
+.overview-item-user{
+	margin: 3rem 1rem;
+}
+.overview-item-case{
+	margin: 3rem 1rem;
+}
+.overview-item-home{
+	margin: 3rem 1rem;
+}
+/*Ket thuc Overbiew */
+
+/*Bat dau  footer */
+.footer{
+	width: 100%;
+	background: black;
+	padding-top: 3rem;
+	margin-bottom: 4rem;
+	height: 30rem;
+}
+.footer-content{
+	width: 80%;
+	margin: auto;
+}
+.footer-detail{
+	float: left;
+	width: 33%;
+	color: white;
+}
+.footer-contact{
+	width: 34%;
+}
+.footer-detail h2{
+	font-size: 2.2rem;
+	font-weight: 200;
+}
+.footer-detail p{
+	color: #7c7c7c;
+}
+.footer-contact i{
+	margin-right: 1rem;
+}
+.footer-about-us p{
+	line-height: 2rem;
+}
+.footer-news i{
+	color: #204b87;
+}
+.footer-content-form{
+	margin-top: 3rem;
+}
+.footer-content-form h2{
+	font-size: 2.2rem;
+	color: white;
+}
+.footer-content-form input{
+	width: 76%;
+	height: 2.4rem;
+	border: none;
+	background-color: #1b1b1b; 
+}
+.footer-content-form button{
+	width: 22%;
+	height: 2.7rem;
+	background-color: #204b87;
+	border: none;
+	color: white;
+	font-weight: bold;
+	margin-left: 1rem;
+}
+/*Ket thuc footer */
